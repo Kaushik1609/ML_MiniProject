@@ -1,0 +1,22 @@
+# Dataset (Never commit transaction data or large CSVs)
+data/
+*.csv
+
+# Python & Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# IDE / Editor artifacts
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
